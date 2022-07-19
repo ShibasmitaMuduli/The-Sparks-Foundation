@@ -1,0 +1,65 @@
+.about{
+    margin: 10px 100px;
+    padding: 5px 5px;
+    font-size: large;
+    background-color: rgba(152, 153, 199, 0.493);
+}
+.about h2{
+    margin: 2px 500px;
+    padding-left: 7px;
+    border-bottom: 3px solid black;
+}
+.about img{
+    background-color: white;
+    position: absolute;
+    top: 370px;
+    opacity:0.9;
+    margin: 30px 2px;
+    padding: 1px 1px;
+}
+#picleft{
+    position: absolute;
+    left: 10px;
+    margin: 5px 100px;
+    width: 30%;
+    height: 40%;
+}
+#picright{
+    position: absolute;
+    right: 10px;
+    margin: 5px 100px;
+    width: 30%;
+    height: 40%;
+}
+#picleft2{
+    position: absolute;
+    left: 10px;
+    margin: 300px 100px;
+    width: 30%;
+    height: 40%;
+}
+#picright2{
+    position: absolute;
+    right: 10px;
+    margin: 300px 100px;
+    width: 30%;
+    height: 40%;
+}
+#motive{
+    top: 300px;
+    margin: 30px 550px;
+    background-color: rgba(248, 248, 125, 0.877);
+    color: black;
+    font-size: 50px;
+    padding: 90px 5px;
+    align-items: center;
+}
+#motive p{
+    display:block;
+    margin: 5px 10px;
+    padding: 30px 12px;
+    background-color: rgba(152, 153, 199, 0.493);
+}
+footer{
+    margin-bottom: 700px;
+}

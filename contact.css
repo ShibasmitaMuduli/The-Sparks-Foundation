@@ -1,0 +1,65 @@
+form h2{
+    margin: 2px 350px;
+    padding: 2px 13px;
+    position:relative;
+    color: white;
+    border-bottom: 5px solid white;
+}
+.container{
+    padding: 80px 190px;
+    background-color: rgba(152, 153, 199, 0.493);
+    height: 600px;
+}
+img{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    color: black;
+    background-color: azure;
+    margin: 45px 170px;
+}
+.details input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    left: 2px;
+    margin: 20px 15px;
+    padding: 12px 7px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bton{
+    left: 320px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid rgb(53, 51, 56);
+    margin: 10px 45px;
+    padding: 2px 2px;
+    height: 42px;
+    width: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bton:hover{
+    background-color: rgb(152, 153, 199);
+}
+textarea{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 5px;
+    left: 2px;
+    margin: 18px 15px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    margin-bottom: 1050px;
+}

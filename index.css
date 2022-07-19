@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+.nav {
+    background-color: rgb(152, 153, 199);
+    width: 100%;
+    height: 53px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.navbar {
+    display: block;
+    width: 40%;
+    margin: 8px auto;
+    padding: 17px 62px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+}
+
+.navbar li a {
+    border: 2px solid rgb(152, 153, 199);
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 0px 12px;
+    padding: 1px 10px;
+    color: white;
+}
+.navbar li a:hover {
+    background-color: rgba(135, 136, 175, 0.849);
+    color: black;
+}
+.image img{
+    position: absolute;
+    top: 60px;
+    height: 95%;
+    width: 98.8%;
+    opacity: 0.5;
+}
+.top h3{
+    display:block;
+    position: absolute;
+    margin: 2px 55px;
+    padding: 3px 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 58px;
+    font-weight: 100;
+    color: rgb(32, 32, 32);
+}
+.top h4{
+    display:block;
+    position: absolute;
+    margin: 80px 400px;
+    padding: 20px 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(32, 32, 32);
+}
+.top{
+    display: block;
+    margin: 30px 20px;
+    padding: 30px 10px;
+}
+.btn{
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    background-color: rgb(152, 153, 199);
+    border-radius: none;
+    border: 2px solid rgb(53, 51, 56);
+    margin: 180px 575px;
+    padding: 7px 2px;
+    height: 42px;
+    width: 125px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(135, 136, 175);
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.text{
+    position: absolute;
+    top: 13px;
+    background-color: white;
+    margin: 500px 0px;
+}
+#text{
+    margin: 20px 100px;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+.picture{
+    background-color: white;
+    position: absolute;
+    top: 750px;
+    width: 100%;
+    height: 300px; 
+}
+#left img{
+    position: absolute;
+    left: 10px;
+    margin: 5px 100px;
+    width:40%;
+    height: 100%;
+}
+#right img{
+    position: absolute;
+    right: 10px;
+    margin: 5px 100px;
+    width:40%;
+    height: 100%;
+}
+.down img{
+    display: block;
+    top: 1300px;
+    position: absolute;
+    margin: 1px auto;
+    width: 98.8%;
+    height: 60%;
+    opacity: 0.7;
+}
+#content{
+    top: 60px;
+    margin: 20px 400px;
+    margin-top: 955px;
+    padding: 35px 3px;
+    border-top: 3px solid rgb(0, 81, 255);
+    border-bottom: 3px solid rgb(0, 81, 255);
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.comments h1{
+    display: flex;
+    left: 570px;
+    top: 1300px;
+    position: absolute;
+    padding:3px;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+}
+#comment{
+    display: block;
+    top: 1400px;
+    position: absolute;
+    margin: 1px 300px;
+    width: 50%;
+    height: 30px;
+}
+#comment input{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 32px;
+    border-radius: 5px;
+    margin: -2px 55px;
+    padding: 0px 6px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#comment textarea{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border-radius: 5px;
+    margin: 14px 55px;
+    padding: 2px 6px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butn{
+    left: 200px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    background-color: rgb(152, 153, 199);
+    border-radius: 5px;
+    border: 2px solid rgb(53, 51, 56);
+    margin: 10px 45px;
+    padding: 8px 2px;
+    height: 42px;
+    width: 250px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.butn:hover{
+    background-color: rgb(135, 136, 175);
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    width: 98.8%;
+    height: 60px;
+    background-color: rgb(152, 153, 199);
+    color: black;
+    border-top: 3px solid black;
+    padding-top: 5px;
+    padding-left: 255px;
+    bottom: -1050px;
+}
+footer h3{
+  display: inline;
+  padding: 5px 20px;
+  margin: 2px 105px;
+}
+.fa{
+  padding: 12px 14px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border-radius:50%;
+  margin: 2px 22px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {  
+background: #007bb5;  
+color: white;  
+}  
+.fa-instagram {  
+background: #c71e56;  
+color: white;  
+}
